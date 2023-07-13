@@ -98,65 +98,12 @@
        <h2>Puzzle quest <mark>PSP</mark></h2>
     </div>
 </div>
-<div class="carrossel2">
-    <div class="basegame" name="exb">
-        <img src="./img_icone/img21.png" alt="" class="imggame" >
-       <h2>Silent hill: origins<mark>PSP</mark></h2>
-    </div>
-    <div class="basegame" name="exb"> 
-        <img src="./img_icone/img22.png" alt="" class="imggame">
-       <h2>Metal slug <mark>PSP</mark></h2>
-    </div>
-    <div class="basegame" name="exb">
-        <img src="./img_icone/img10.png" alt="" class="imggame">
-       <h2>Tekken 5: dark resurrection  <mark>PSP</mark></h2>
-    </div>
-    <div class="basegame" name="exb">
-        <img src="./img_icone/img5.png" alt="" class="imggame">
-       <h2>Daxter<mark>PSP</mark></h2>
-    </div>
-    <div class="basegame" name="exb">
-        <img src="./img_icone/img9.png" alt="" class="imggame">
-       <h2>Burnout Legend <mark>PSP</mark></h2>
-    </div>
-    <div class="basegame" name="exb">
-        <img src="./img_icone/img7.png" alt="" class="imggame">
-       <h2>Metal gear solid peace walker <mark>PSP</mark></h2>
-    </div>
+
+
 </div>
-<div class="carrossel3">
-    <div class="basegame" name="exb">
-        <img src="./img_icone/img8.png" alt="" class="imggame" >
-       <h2>Grand theft auto vice city stories<mark>PSP</mark></h2>
-    </div>
-    <div class="basegame" name="exb"> 
-        <img src="./img_icone/img2.png" alt="" class="imggame">
-       <h2>Final fantasy iv: the complete collection <mark>PSP</mark></h2>
-    </div>
-    <div class="basegame" name="exb">
-        <img src="./img_icone/img13.png" alt="" class="imggame">
-       <h2>The warriors <mark>PSP</mark></h2>
-    </div>
-    <div class="basegame" name="exb">
-        <img src="./img_icone/img17.png" alt="" class="imggame">
-       <h2>Def jam: fight for ny: the takeover<mark>PSP</mark></h2>
-    </div>
-    <div class="basegame" name="exb">
-        <img src="./img_icone/img20.png" alt="" class="imggame">
-       <h2>Puzzle quest <mark>PSP</mark></h2>
-    </div>
-    <div class="basegame" name="exb">
-        <img src="./img_icone/img18.png" alt="" class="imggame">
-       <h2>Mega man powered up <mark>PSP</mark></h2>
-    </div>
-</div>
-</div>
-<div class="posiçao">
-    <div class="p1"></div>
-    <div class="p2"></div>
-    <div class="p3"></div>
-</div>
-<button class="cct">></button>
+
+
+
     <div class="img_fixo1"></div>
     
     <script>
@@ -164,66 +111,6 @@
             env: "development"
         }
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/less" ></script>
-
- <script>
-    let ccrl0 = document.querySelector(".carrossel")
-let ccrl1 = document.querySelector(".carrossel2")
-let ccrl2 = document.querySelector(".carrossel3")
-
-let p0 = document.querySelector(".p1")
-let p1 = document.querySelector(".p2")
-let p2 = document.querySelector(".p3")
-
-let seguir = document.querySelector(".cct")
-
-let jogo = document.querySelectorAll(".basegame")
-let body = document.querySelector("body")
-let img = document.querySelectorAll("img")
-let h2 = document.querySelectorAll("h2")
-
-
-
-let titulo = document.querySelector(".titulo")
-let desligado = "display:none;"
-let ligado = "display:flex;"
-
-let luz_on = "background-color:yellow;"
-let luz_off= "background-color:none;"
-
-let valoratual = 0;
-
-seguir.addEventListener("click",()=>{
-    valoratual++;
-    
-    if(valoratual == 1){
-        ccrl0.style.cssText = desligado;
-        ccrl2.style.cssText = desligado;
-        p0.style.cssText = luz_off; 
-        p2.style.cssText = luz_off;
-
-        ccrl1.style.cssText = ligado;
-        p1.style.cssText = luz_on
-    }
-    if(valoratual == 2){
-        ccrl1.style.cssText = desligado;
-        p1.style.cssText = luz_off;
-
-        ccrl2.style.cssText = ligado;
-        p2.style.cssText = luz_on;
-    }
-    if(valoratual == 3){
-        ccrl0.style.cssText = ligado;
-        p0.style.cssText = luz_on;
-        ccrl2.style.cssText = desligado;
-        p2.style.cssText = luz_off;
-    }
-    if(valoratual > 3){
-        valoratual = 0;
-    }
-    
-})
-
- </script>   
+    <script src="https://cdn.jsdelivr.net/npm/less" ></script>  
 </body>
 </html>
