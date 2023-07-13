@@ -1,0 +1,2825 @@
+@slc_body: body;
+@slc_partedecima: .partedecima;
+@slc_logo: .logo;
+@slc_paralax: .paralax;
+@slc_h1: h1;
+@slc_h2: h2;
+@slc_img_fixo0: .img_fixo0;
+@slc_img_fixo1: .img_fixo1;
+@slc_limite1: .limite1;
+@slc_limite2: .limite2;
+@slc_limite3: .limite3;
+@slc_carrossel: .carrossel;
+@slc_carrossel2: .carrossel2;
+@slc_carrossel3: .carrossel3;
+@slc_espaco1: .espaço1;
+@slc_espaco2: .espaço2;
+@slc_basegame: .basegame;
+@slc_imggame: .imggame;
+@slc_mark: .mark;
+@slc_posicao: .posiçao;
+@slc_p1: .p1;
+@slc_p2: .p2;
+@slc_p3: .p3;
+@slc_cct: .ctt;
+@slc_a: a;
+@slc_jogo: .jogo;
+
+@tamanho250px: 250px;
+@tamanho280px: 280px;
+@tamanho300px: 300px;
+@tamanho360px: 360px;
+@tamanho400px: 400px;
+@tamanho412px: 412px;
+@tamanho540px: 540px;
+@tamanho600px: 600px;
+@tamanho800px: 800px;
+@tamanho1000px: 1000px;
+@tamanho1400px: 1400px;
+@tamanho1600px: 1600px;
+
+@{slc_body}{
+    margin: 0px;
+    background-color: rgb(83, 94, 104);
+}
+@{slc_partedecima}{
+    margin: 0px;
+    width: auto;
+    height: 80px;
+    padding: 10px;
+    background-color: rgba(83, 94, 104, 0.164);
+
+}
+@{slc_logo}{
+    width:400px;
+    height: 75px;
+    background-color: rgb(66, 54, 54);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 0px;
+}
+@{slc_paralax}{
+    background-image: url("./img_exposição/imagem05.png");
+    min-height: 800px;
+    width: 1580px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+@{slc_h1}{
+    text-align: center;
+    font-size: 70px;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-top: 0px;
+}
+@{slc_img_fixo0}{
+    background-image: url("./img_exposição/imagem01.png");
+    width: 800px;
+    height: 700px;
+    position: absolute;
+    top: 110%;
+    right: 0px;
+    filter:contrast(100%);
+   
+}
+@{slc_img_fixo1}{
+    background-image: url("./img_exposição/imagem02.png");
+    width: 750px;
+    height: 640px;
+    position: absolute;
+    top: 210%;
+   left: -70px;
+    filter:contrast(100%);
+   
+}
+
+@{slc_limite1}{
+    width: 782px;
+height: 635px;
+display: flex;
+flex-wrap: wrap;
+
+}
+@{slc_limite2}{
+    width: 850px;
+height: 665px;
+display: flex;
+flex-wrap: wrap;
+margin-left: 740px;
+}
+@{slc_limite3}{
+    width:auto;
+height: 340px;
+background-color: rgb(189, 165, 165);
+
+}
+@{slc_carrossel}{
+    width:1582px;
+height: 340px;
+display: flex;
+flex-wrap: wrap;
+background-color: rgb(58, 42, 42);
+position: absolute;
+
+}
+@{slc_carrossel2}{
+    width:1582px;
+height: 340px;
+display: none;
+flex-wrap: wrap;
+background-color: rgb(58, 42, 42);
+position: absolute;
+
+}
+@{slc_carrossel3}{
+    width:1582px;
+height: 340px;
+display: none;
+flex-wrap: wrap;
+background-color: rgb(58, 42, 42);
+position: absolute;
+
+}
+
+@{slc_espaco1}{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    background-color: rgb(82, 77, 76);
+    height: 635px;
+}
+@{slc_espaco2}{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    background-color: rgb(136, 98, 94);
+    height: 694px;
+}
+
+@{slc_basegame}{
+    width: 200px;
+    height: 300px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 25px;
+    background-color: rgb(53, 30, 30);
+}
+@{slc_basegame}[name="exb"]{
+    margin:30px;
+}
+@{slc_imggame}{
+    width: 200px;
+    height: 250px;
+    border-radius: 8px 8px 0px 0px;
+}
+@{slc_h2}{
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 0px;
+    color: white;
+}
+@{slc_mark}{
+    border-radius: 5px;
+    background-color: sandybrown;
+    margin-left: 5px;
+    padding: 2px;
+}
+@{slc_posicao}{
+    margin: auto;
+    width: 200px;
+    height: 35px;
+    background-color: rgb(53, 30, 30);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+@{slc_p1}{
+    width: 40px;
+    height: 20px;
+    margin: 4px;
+    border-radius: 4px;
+    margin-left: 14px;
+    border: 2px solid black;
+}
+@{slc_p2}{
+    width: 40px;
+    height: 20px;
+    margin: 4px;
+    border-radius: 4px;
+    margin-left: 14px;
+    border: 2px solid black;
+}
+@{slc_p3}{
+    width: 40px;
+    height: 20px;
+    margin: 4px;
+    border-radius: 4px;
+    margin-left: 14px;
+    border: 2px solid black;
+}
+
+
+.cct{
+    width: 35px;
+    height: 55px;
+    font-size: 20px;
+    border-radius: 20px;
+    border:2px solid;
+    position: absolute;
+    right: 0.5%;
+    top: 315%;
+    cursor: pointer;
+}
+
+@{slc_a}{
+text-decoration: none;
+}
+@{slc_jogo}{
+    height: 600px;
+    width: 800px;
+    background-color: rgb(66, 54, 54);
+    margin: auto;
+    border-radius: 10px;
+}
+
+.funcaonone(){
+    display: none;
+}
+
+@media screen and(min-width: @tamanho250px){
+    @{slc_partedecima}{
+        margin: 0px;
+        width: auto;
+        height: 50px;
+        padding: 10px;
+        background-color: rgba(83, 94, 104, 0.164);
+    
+    }
+    @{slc_logo}{
+        width:200px;
+        height: 50px;
+        background-color: rgb(66, 54, 54);
+        border-radius: 20px;
+        margin: auto;
+        margin-top: 0px;
+    }
+    @{slc_paralax}{
+      .funcaonone();
+    }
+    @{slc_h1}{
+        text-align: center;
+        font-size: 40px;
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: white;
+        margin-top: 0px;
+    }
+    @{slc_img_fixo0}{
+        .funcaonone();
+       
+    }
+    @{slc_img_fixo1}{
+   .funcaonone();
+    }
+    
+    @{slc_limite1}{
+    width: 782px;
+    height: 2200px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    }
+    @{slc_limite2}{
+    width: 233px;
+    height: 2200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    }
+    @{slc_limite3}{
+        .funcaonone()
+      /*  width:auto;
+    height: 340px;
+    background-color: rgb(189, 165, 165);
+    */
+    }
+    @{slc_carrossel}{
+        width:1582px;
+    height: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(58, 42, 42);
+    position: absolute;
+    
+    }
+    @{slc_carrossel2}{
+        width:1582px;
+    height: 340px;
+    display: none;
+    flex-wrap: wrap;
+    background-color: rgb(58, 42, 42);
+    position: absolute;
+    
+    }
+    @{slc_carrossel3}{
+        width:1582px;
+    height: 340px;
+    display: none;
+    flex-wrap: wrap;
+    background-color: rgb(58, 42, 42);
+    position: absolute;
+    
+    }
+    
+    @{slc_espaco1}{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        background-color: rgb(82, 77, 76);
+        height: 2200px;
+    }
+    @{slc_espaco2}{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        background-color: rgb(136, 98, 94);
+        height: 2200px;
+    }
+    
+    @{slc_basegame}{
+        width: 200px;
+        height: 300px;
+        cursor: pointer;
+        border-radius: 10px;
+        margin: 5px;
+        background-color: rgb(53, 30, 30);
+    }
+    @{slc_basegame}[name="exb"]{
+        margin:0px;
+    }
+    @{slc_imggame}{
+        width: 200px;
+        height: 250px;
+        border-radius: 8px 8px 0px 0px;
+    }
+    @{slc_h2}{
+        font-size: 14px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-top: 0px;
+        color: white;
+    }
+    @{slc_mark}{
+        border-radius: 5px;
+        background-color: sandybrown;
+        margin-left: 5px;
+        padding: 2px;
+    }
+    @{slc_posicao}{
+        .funcaonone();
+       /* margin: auto;
+        width: 200px;
+        height: 35px;
+        background-color: rgb(53, 30, 30);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;*/
+    }
+    @{slc_p1}{
+        width: 40px;
+        height: 20px;
+        margin: 4px;
+        border-radius: 4px;
+        margin-left: 14px;
+        border: 2px solid black;
+    }
+    @{slc_p2}{
+        width: 40px;
+        height: 20px;
+        margin: 4px;
+        border-radius: 4px;
+        margin-left: 14px;
+        border: 2px solid black;
+    }
+    @{slc_p3}{
+        width: 40px;
+        height: 20px;
+        margin: 4px;
+        border-radius: 4px;
+        margin-left: 14px;
+        border: 2px solid black;
+    }
+    
+    
+    .cct{
+.funcaonone();
+        /*width: 35px;
+        height: 55px;
+        font-size: 20px;
+        border-radius: 20px;
+        border:2px solid;
+        position: absolute;
+        right: 0.5%;
+        top: 315%;
+        cursor: pointer;*/
+    }
+    
+    @{slc_a}{
+    text-decoration: none;
+    }
+    @{slc_jogo}{
+        height: 600px;
+        width: 800px;
+        background-color: rgb(66, 54, 54);
+        margin: auto;
+        border-radius: 10px;
+    }
+    
+    .funcaonone(){
+        display: none;
+    }
+     }
+
+     @media screen and(min-width: @tamanho280px){
+        @{slc_partedecima}{
+            margin: 0px;
+            width: auto;
+            height: 70px;
+            padding: 10px;
+            background-color: rgba(83, 94, 104, 0.164);
+        
+        }
+        @{slc_logo}{
+            width:250px;
+            height: 50px;
+            background-color: rgb(66, 54, 54);
+            border-radius: 20px;
+            margin: auto;
+            margin-top: 0px;
+        }
+        @{slc_paralax}{
+            background-image: url("./img_exposição/imagem05.png");
+            min-height: 800px;
+            width: 1580px;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover ;
+        }
+        @{slc_h1}{
+            text-align: center;
+            font-size: 40px;
+           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            color: white;
+            margin-top: 0px;
+        }
+        @{slc_img_fixo0}{
+            background-image: url("./img_exposição/imagem01.png");
+            width: 800px;
+            height: 700px;
+            position: absolute;
+            top: 110%;
+            right: 0px;
+            filter:contrast(100%);
+           
+        }
+        @{slc_img_fixo1}{
+            background-image: url("./img_exposição/imagem02.png");
+            width: 750px;
+            height: 640px;
+            position: absolute;
+            top: 210%;
+           left: -70px;
+            filter:contrast(100%);
+           
+        }
+        
+        @{slc_limite1}{
+            width: 782px;
+            height: 2200px;
+            display: flex;
+            flex-wrap: wrap;
+        
+        }
+        @{slc_limite2}{
+            width: 233px;
+            height: 2200px;
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 0px;
+        }
+        @{slc_limite3}{
+            .funcaonone();
+           /* width:auto;
+        height: 340px;
+        background-color: rgb(189, 165, 165);
+        */
+        }
+        @{slc_carrossel}{
+            width:1582px;
+        height: 340px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: rgb(58, 42, 42);
+        position: absolute;
+        
+        }
+        @{slc_carrossel2}{
+            width:1582px;
+        height: 340px;
+        display: none;
+        flex-wrap: wrap;
+        background-color: rgb(58, 42, 42);
+        position: absolute;
+        
+        }
+        @{slc_carrossel3}{
+            width:1582px;
+        height: 340px;
+        display: none;
+        flex-wrap: wrap;
+        background-color: rgb(58, 42, 42);
+        position: absolute;
+        
+        }
+        
+        @{slc_espaco1}{
+            display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        background-color: rgb(82, 77, 76);
+        height: 2200px;
+        }
+        @{slc_espaco2}{
+            display: flex;
+            flex-wrap: wrap;
+            width: auto;
+            background-color: rgb(136, 98, 94);
+            height: 2200px;
+        }
+        
+        @{slc_basegame}{
+            width: 200px;
+            height: 300px;
+            cursor: pointer;
+            border-radius: 10px;
+            margin: 25px;
+            background-color: rgb(53, 30, 30);
+        }
+        @{slc_basegame}[name="exb"]{
+            margin:30px;
+        }
+        @{slc_imggame}{
+            width: 200px;
+            height: 250px;
+            border-radius: 8px 8px 0px 0px;
+        }
+        @{slc_h2}{
+            font-size: 14px;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-top: 0px;
+            color: white;
+        }
+        @{slc_mark}{
+            border-radius: 5px;
+            background-color: sandybrown;
+            margin-left: 5px;
+            padding: 2px;
+        }
+        @{slc_posicao}{
+            .funcaonone();
+            /*
+            margin: auto;
+            width: 200px;
+            height: 35px;
+            background-color: rgb(53, 30, 30);
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-wrap: wrap;*/
+        }
+        @{slc_p1}{
+            width: 40px;
+            height: 20px;
+            margin: 4px;
+            border-radius: 4px;
+            margin-left: 14px;
+            border: 2px solid black;
+        }
+        @{slc_p2}{
+            width: 40px;
+            height: 20px;
+            margin: 4px;
+            border-radius: 4px;
+            margin-left: 14px;
+            border: 2px solid black;
+        }
+        @{slc_p3}{
+            width: 40px;
+            height: 20px;
+            margin: 4px;
+            border-radius: 4px;
+            margin-left: 14px;
+            border: 2px solid black;
+        }
+        
+        
+        .cct{
+            .funcaonone();
+            /*
+            width: 35px;
+            height: 55px;
+            font-size: 20px;
+            border-radius: 20px;
+            border:2px solid;
+            position: absolute;
+            right: 0.5%;
+            top: 315%;
+            cursor: pointer;*/
+        }
+        
+        @{slc_a}{
+        text-decoration: none;
+        }
+        @{slc_jogo}{
+            height: 600px;
+            width: 800px;
+            background-color: rgb(66, 54, 54);
+            margin: auto;
+            border-radius: 10px;
+        }
+        
+        .funcaonone(){
+            display: none;
+        }
+         }
+
+         @media screen and(min-width: @tamanho300px){
+            @{slc_partedecima}{
+                margin: 0px;
+                width: auto;
+                height: 70px;
+                padding: 10px;
+                background-color: rgba(83, 94, 104, 0.164);
+            
+            }
+            @{slc_logo}{
+                width:250px;
+                height: 50px;
+                background-color: rgb(66, 54, 54);
+                border-radius: 20px;
+                margin: auto;
+                margin-top: 0px;
+            }
+            @{slc_paralax}{
+                background-image: url("./img_exposição/imagem05.png");
+                min-height: 800px;
+                width: 1580px;
+                background-attachment: fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:cover ;
+            }
+            @{slc_h1}{
+                text-align: center;
+                font-size: 40px;
+               font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: white;
+                margin-top: 0px;
+            }
+            @{slc_img_fixo0}{
+                background-image: url("./img_exposição/imagem01.png");
+                width: 800px;
+                height: 700px;
+                position: absolute;
+                top: 110%;
+                right: 0px;
+                filter:contrast(100%);
+               
+            }
+            @{slc_img_fixo1}{
+                background-image: url("./img_exposição/imagem02.png");
+                width: 750px;
+                height: 640px;
+                position: absolute;
+                top: 210%;
+               left: -70px;
+                filter:contrast(100%);
+               
+            }
+            
+            @{slc_limite1}{
+                width: 782px;
+                height: 2200px;
+                display: flex;
+                flex-wrap: wrap;
+            
+            }
+            @{slc_limite2}{
+                width: 233px;
+                height: 2200px;
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 0px;
+            }
+            @{slc_limite3}{
+                .funcaonone();
+               /* width:auto;
+            height: 340px;
+            background-color: rgb(189, 165, 165);
+            */
+            }
+            @{slc_carrossel}{
+                width:1582px;
+            height: 340px;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(58, 42, 42);
+            position: absolute;
+            
+            }
+            @{slc_carrossel2}{
+                width:1582px;
+            height: 340px;
+            display: none;
+            flex-wrap: wrap;
+            background-color: rgb(58, 42, 42);
+            position: absolute;
+            
+            }
+            @{slc_carrossel3}{
+                width:1582px;
+            height: 340px;
+            display: none;
+            flex-wrap: wrap;
+            background-color: rgb(58, 42, 42);
+            position: absolute;
+            
+            }
+            
+            @{slc_espaco1}{
+                display: flex;
+            flex-wrap: wrap;
+            width: auto;
+            background-color: rgb(82, 77, 76);
+            height: 2200px;
+            }
+            @{slc_espaco2}{
+                display: flex;
+                flex-wrap: wrap;
+                width: auto;
+                background-color: rgb(136, 98, 94);
+                height: 2200px;
+            }
+            
+            @{slc_basegame}{
+                width: 200px;
+                height: 300px;
+                cursor: pointer;
+                border-radius: 10px;
+                margin: 25px;
+                background-color: rgb(53, 30, 30);
+            }
+            @{slc_basegame}[name="exb"]{
+                margin:30px;
+            }
+            @{slc_imggame}{
+                width: 200px;
+                height: 250px;
+                border-radius: 8px 8px 0px 0px;
+            }
+            @{slc_h2}{
+                font-size: 14px;
+                text-align: center;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                margin-top: 0px;
+                color: white;
+            }
+            @{slc_mark}{
+                border-radius: 5px;
+                background-color: sandybrown;
+                margin-left: 5px;
+                padding: 2px;
+            }
+            @{slc_posicao}{
+                .funcaonone();
+                /*
+                margin: auto;
+                width: 200px;
+                height: 35px;
+                background-color: rgb(53, 30, 30);
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-radius: 10px;
+                display: flex;
+                flex-wrap: wrap;*/
+            }
+            @{slc_p1}{
+                width: 40px;
+                height: 20px;
+                margin: 4px;
+                border-radius: 4px;
+                margin-left: 14px;
+                border: 2px solid black;
+            }
+            @{slc_p2}{
+                width: 40px;
+                height: 20px;
+                margin: 4px;
+                border-radius: 4px;
+                margin-left: 14px;
+                border: 2px solid black;
+            }
+            @{slc_p3}{
+                width: 40px;
+                height: 20px;
+                margin: 4px;
+                border-radius: 4px;
+                margin-left: 14px;
+                border: 2px solid black;
+            }
+            
+            
+            .cct{
+                .funcaonone();
+                /*
+                width: 35px;
+                height: 55px;
+                font-size: 20px;
+                border-radius: 20px;
+                border:2px solid;
+                position: absolute;
+                right: 0.5%;
+                top: 315%;
+                cursor: pointer;*/
+            }
+            
+            @{slc_a}{
+            text-decoration: none;
+            }
+            @{slc_jogo}{
+                height: 600px;
+                width: 800px;
+                background-color: rgb(66, 54, 54);
+                margin: auto;
+                border-radius: 10px;
+            }
+            
+            .funcaonone(){
+                display: none;
+            }
+             }
+
+             @media screen and(min-width: @tamanho360px){
+                @{slc_partedecima}{
+                    margin: 0px;
+                    width: auto;
+                    height: 70px;
+                    padding: 10px;
+                    background-color: rgba(83, 94, 104, 0.164);
+                
+                }
+                @{slc_logo}{
+                    width:250px;
+                    height: 50px;
+                    background-color: rgb(66, 54, 54);
+                    border-radius: 20px;
+                    margin: auto;
+                    margin-top: 0px;
+                }
+                @{slc_paralax}{
+                    background-image: url("./img_exposição/imagem05.png");
+                    min-height: 800px;
+                    width: 1580px;
+                    background-attachment: fixed;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size:cover ;
+                }
+                @{slc_h1}{
+                    text-align: center;
+                    font-size: 40px;
+                   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    color: white;
+                    margin-top: 0px;
+                }
+                @{slc_img_fixo0}{
+                    background-image: url("./img_exposição/imagem01.png");
+                    width: 800px;
+                    height: 700px;
+                    position: absolute;
+                    top: 110%;
+                    right: 0px;
+                    filter:contrast(100%);
+                   
+                }
+                @{slc_img_fixo1}{
+                    background-image: url("./img_exposição/imagem02.png");
+                    width: 750px;
+                    height: 640px;
+                    position: absolute;
+                    top: 210%;
+                   left: -70px;
+                    filter:contrast(100%);
+                   
+                }
+                
+                @{slc_limite1}{
+                    width: 782px;
+                    height: 2200px;
+                    display: flex;
+                    flex-wrap: wrap;
+                
+                }
+                @{slc_limite2}{
+                    width: 233px;
+                    height: 2200px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-left: 0px;
+                }
+                @{slc_limite3}{
+                    .funcaonone();
+                   /* width:auto;
+                height: 340px;
+                background-color: rgb(189, 165, 165);
+                */
+                }
+                @{slc_carrossel}{
+                    width:1582px;
+                height: 340px;
+                display: flex;
+                flex-wrap: wrap;
+                background-color: rgb(58, 42, 42);
+                position: absolute;
+                
+                }
+                @{slc_carrossel2}{
+                    width:1582px;
+                height: 340px;
+                display: none;
+                flex-wrap: wrap;
+                background-color: rgb(58, 42, 42);
+                position: absolute;
+                
+                }
+                @{slc_carrossel3}{
+                    width:1582px;
+                height: 340px;
+                display: none;
+                flex-wrap: wrap;
+                background-color: rgb(58, 42, 42);
+                position: absolute;
+                
+                }
+                
+                @{slc_espaco1}{
+                    display: flex;
+                flex-wrap: wrap;
+                width: auto;
+                background-color: rgb(82, 77, 76);
+                height: 2200px;
+                }
+                @{slc_espaco2}{
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: auto;
+                    background-color: rgb(136, 98, 94);
+                    height: 2200px;
+                }
+                
+                @{slc_basegame}{
+                    width: 200px;
+                    height: 300px;
+                    cursor: pointer;
+                    border-radius: 10px;
+                    margin: 25px;
+                    background-color: rgb(53, 30, 30);
+                }
+                @{slc_basegame}[name="exb"]{
+                    margin:30px;
+                }
+                @{slc_imggame}{
+                    width: 200px;
+                    height: 250px;
+                    border-radius: 8px 8px 0px 0px;
+                }
+                @{slc_h2}{
+                    font-size: 14px;
+                    text-align: center;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    margin-top: 0px;
+                    color: white;
+                }
+                @{slc_mark}{
+                    border-radius: 5px;
+                    background-color: sandybrown;
+                    margin-left: 5px;
+                    padding: 2px;
+                }
+                @{slc_posicao}{
+                    .funcaonone();
+                    /*
+                    margin: auto;
+                    width: 200px;
+                    height: 35px;
+                    background-color: rgb(53, 30, 30);
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-wrap: wrap;*/
+                }
+                @{slc_p1}{
+                    width: 40px;
+                    height: 20px;
+                    margin: 4px;
+                    border-radius: 4px;
+                    margin-left: 14px;
+                    border: 2px solid black;
+                }
+                @{slc_p2}{
+                    width: 40px;
+                    height: 20px;
+                    margin: 4px;
+                    border-radius: 4px;
+                    margin-left: 14px;
+                    border: 2px solid black;
+                }
+                @{slc_p3}{
+                    width: 40px;
+                    height: 20px;
+                    margin: 4px;
+                    border-radius: 4px;
+                    margin-left: 14px;
+                    border: 2px solid black;
+                }
+                
+                
+                .cct{
+                    .funcaonone();
+                    /*
+                    width: 35px;
+                    height: 55px;
+                    font-size: 20px;
+                    border-radius: 20px;
+                    border:2px solid;
+                    position: absolute;
+                    right: 0.5%;
+                    top: 315%;
+                    cursor: pointer;*/
+                }
+                
+                @{slc_a}{
+                text-decoration: none;
+                }
+                @{slc_jogo}{
+                    height: 600px;
+                    width: 800px;
+                    background-color: rgb(66, 54, 54);
+                    margin: auto;
+                    border-radius: 10px;
+                }
+                
+                .funcaonone(){
+                    display: none;
+                }
+                 }
+
+                 @media screen and(min-width: @tamanho400px){
+                    @{slc_partedecima}{
+                        margin: 0px;
+                        width: auto;
+                        height: 70px;
+                        padding: 10px;
+                        background-color: rgba(83, 94, 104, 0.164);
+                    
+                    }
+                    @{slc_logo}{
+                        width:250px;
+                        height: 50px;
+                        background-color: rgb(66, 54, 54);
+                        border-radius: 20px;
+                        margin: auto;
+                        margin-top: 0px;
+                    }
+                    @{slc_paralax}{
+                        background-image: url("./img_exposição/imagem05.png");
+                        min-height: 800px;
+                        width: 1580px;
+                        background-attachment: fixed;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size:cover ;
+                    }
+                    @{slc_h1}{
+                        text-align: center;
+                        font-size: 40px;
+                       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        color: white;
+                        margin-top: 0px;
+                    }
+                    @{slc_img_fixo0}{
+                        background-image: url("./img_exposição/imagem01.png");
+                        width: 800px;
+                        height: 700px;
+                        position: absolute;
+                        top: 110%;
+                        right: 0px;
+                        filter:contrast(100%);
+                       
+                    }
+                    @{slc_img_fixo1}{
+                        background-image: url("./img_exposição/imagem02.png");
+                        width: 750px;
+                        height: 640px;
+                        position: absolute;
+                        top: 210%;
+                       left: -70px;
+                        filter:contrast(100%);
+                       
+                    }
+                    
+                    @{slc_limite1}{
+                        width: 782px;
+                        height: 2200px;
+                        display: flex;
+                        flex-wrap: wrap;
+                    
+                    }
+                    @{slc_limite2}{
+                        width: 233px;
+                        height: 2200px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin-left: 0px;
+                    }
+                    @{slc_limite3}{
+                        .funcaonone();
+                       /* width:auto;
+                    height: 340px;
+                    background-color: rgb(189, 165, 165);
+                    */
+                    }
+                    @{slc_carrossel}{
+                        width:1582px;
+                    height: 340px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    background-color: rgb(58, 42, 42);
+                    position: absolute;
+                    
+                    }
+                    @{slc_carrossel2}{
+                        width:1582px;
+                    height: 340px;
+                    display: none;
+                    flex-wrap: wrap;
+                    background-color: rgb(58, 42, 42);
+                    position: absolute;
+                    
+                    }
+                    @{slc_carrossel3}{
+                        width:1582px;
+                    height: 340px;
+                    display: none;
+                    flex-wrap: wrap;
+                    background-color: rgb(58, 42, 42);
+                    position: absolute;
+                    
+                    }
+                    
+                    @{slc_espaco1}{
+                        display: flex;
+                    flex-wrap: wrap;
+                    width: auto;
+                    background-color: rgb(82, 77, 76);
+                    height: 2200px;
+                    }
+                    @{slc_espaco2}{
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: auto;
+                        background-color: rgb(136, 98, 94);
+                        height: 2200px;
+                    }
+                    
+                    @{slc_basegame}{
+                        width: 200px;
+                        height: 300px;
+                        cursor: pointer;
+                        border-radius: 10px;
+                        margin: 25px;
+                        background-color: rgb(53, 30, 30);
+                    }
+                    @{slc_basegame}[name="exb"]{
+                        margin:30px;
+                    }
+                    @{slc_imggame}{
+                        width: 200px;
+                        height: 250px;
+                        border-radius: 8px 8px 0px 0px;
+                    }
+                    @{slc_h2}{
+                        font-size: 14px;
+                        text-align: center;
+                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        margin-top: 0px;
+                        color: white;
+                    }
+                    @{slc_mark}{
+                        border-radius: 5px;
+                        background-color: sandybrown;
+                        margin-left: 5px;
+                        padding: 2px;
+                    }
+                    @{slc_posicao}{
+                        .funcaonone();
+                        /*
+                        margin: auto;
+                        width: 200px;
+                        height: 35px;
+                        background-color: rgb(53, 30, 30);
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        border-radius: 10px;
+                        display: flex;
+                        flex-wrap: wrap;*/
+                    }
+                    @{slc_p1}{
+                        width: 40px;
+                        height: 20px;
+                        margin: 4px;
+                        border-radius: 4px;
+                        margin-left: 14px;
+                        border: 2px solid black;
+                    }
+                    @{slc_p2}{
+                        width: 40px;
+                        height: 20px;
+                        margin: 4px;
+                        border-radius: 4px;
+                        margin-left: 14px;
+                        border: 2px solid black;
+                    }
+                    @{slc_p3}{
+                        width: 40px;
+                        height: 20px;
+                        margin: 4px;
+                        border-radius: 4px;
+                        margin-left: 14px;
+                        border: 2px solid black;
+                    }
+                    
+                    
+                    .cct{
+                        .funcaonone();
+                        /*
+                        width: 35px;
+                        height: 55px;
+                        font-size: 20px;
+                        border-radius: 20px;
+                        border:2px solid;
+                        position: absolute;
+                        right: 0.5%;
+                        top: 315%;
+                        cursor: pointer;*/
+                    }
+                    
+                    @{slc_a}{
+                    text-decoration: none;
+                    }
+                    @{slc_jogo}{
+                        height: 600px;
+                        width: 800px;
+                        background-color: rgb(66, 54, 54);
+                        margin: auto;
+                        border-radius: 10px;
+                    }
+                    
+                    .funcaonone(){
+                        display: none;
+                    }
+                     }
+
+                     @media screen and(min-width: @tamanho412px){
+                        @{slc_partedecima}{
+                            margin: 0px;
+                            width: auto;
+                            height: 70px;
+                            padding: 10px;
+                            background-color: rgba(83, 94, 104, 0.164);
+                        
+                        }
+                        @{slc_logo}{
+                            width:250px;
+                            height: 50px;
+                            background-color: rgb(66, 54, 54);
+                            border-radius: 20px;
+                            margin: auto;
+                            margin-top: 0px;
+                        }
+                        @{slc_paralax}{
+                            background-image: url("./img_exposição/imagem05.png");
+                            min-height: 800px;
+                            width: 1580px;
+                            background-attachment: fixed;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size:cover ;
+                        }
+                        @{slc_h1}{
+                            text-align: center;
+                            font-size: 40px;
+                           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            color: white;
+                            margin-top: 0px;
+                        }
+                        @{slc_img_fixo0}{
+                            background-image: url("./img_exposição/imagem01.png");
+                            width: 800px;
+                            height: 700px;
+                            position: absolute;
+                            top: 110%;
+                            right: 0px;
+                            filter:contrast(100%);
+                           
+                        }
+                        @{slc_img_fixo1}{
+                            background-image: url("./img_exposição/imagem02.png");
+                            width: 750px;
+                            height: 640px;
+                            position: absolute;
+                            top: 210%;
+                           left: -70px;
+                            filter:contrast(100%);
+                           
+                        }
+                        
+                        @{slc_limite1}{
+                            width: 782px;
+                            height: 2200px;
+                            display: flex;
+                            flex-wrap: wrap;
+                        
+                        }
+                        @{slc_limite2}{
+                            width: 233px;
+                            height: 2200px;
+                            display: flex;
+                            flex-wrap: wrap;
+                            margin-left: 0px;
+                        }
+                        @{slc_limite3}{
+                            .funcaonone();
+                           /* width:auto;
+                        height: 340px;
+                        background-color: rgb(189, 165, 165);
+                        */
+                        }
+                        @{slc_carrossel}{
+                            width:1582px;
+                        height: 340px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        background-color: rgb(58, 42, 42);
+                        position: absolute;
+                        
+                        }
+                        @{slc_carrossel2}{
+                            width:1582px;
+                        height: 340px;
+                        display: none;
+                        flex-wrap: wrap;
+                        background-color: rgb(58, 42, 42);
+                        position: absolute;
+                        
+                        }
+                        @{slc_carrossel3}{
+                            width:1582px;
+                        height: 340px;
+                        display: none;
+                        flex-wrap: wrap;
+                        background-color: rgb(58, 42, 42);
+                        position: absolute;
+                        
+                        }
+                        
+                        @{slc_espaco1}{
+                            display: flex;
+                        flex-wrap: wrap;
+                        width: auto;
+                        background-color: rgb(82, 77, 76);
+                        height: 2200px;
+                        }
+                        @{slc_espaco2}{
+                            display: flex;
+                            flex-wrap: wrap;
+                            width: auto;
+                            background-color: rgb(136, 98, 94);
+                            height: 2200px;
+                        }
+                        
+                        @{slc_basegame}{
+                            width: 200px;
+                            height: 300px;
+                            cursor: pointer;
+                            border-radius: 10px;
+                            margin: 25px;
+                            background-color: rgb(53, 30, 30);
+                        }
+                        @{slc_basegame}[name="exb"]{
+                            margin:30px;
+                        }
+                        @{slc_imggame}{
+                            width: 200px;
+                            height: 250px;
+                            border-radius: 8px 8px 0px 0px;
+                        }
+                        @{slc_h2}{
+                            font-size: 14px;
+                            text-align: center;
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            margin-top: 0px;
+                            color: white;
+                        }
+                        @{slc_mark}{
+                            border-radius: 5px;
+                            background-color: sandybrown;
+                            margin-left: 5px;
+                            padding: 2px;
+                        }
+                        @{slc_posicao}{
+                            .funcaonone();
+                            /*
+                            margin: auto;
+                            width: 200px;
+                            height: 35px;
+                            background-color: rgb(53, 30, 30);
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            border-radius: 10px;
+                            display: flex;
+                            flex-wrap: wrap;*/
+                        }
+                        @{slc_p1}{
+                            width: 40px;
+                            height: 20px;
+                            margin: 4px;
+                            border-radius: 4px;
+                            margin-left: 14px;
+                            border: 2px solid black;
+                        }
+                        @{slc_p2}{
+                            width: 40px;
+                            height: 20px;
+                            margin: 4px;
+                            border-radius: 4px;
+                            margin-left: 14px;
+                            border: 2px solid black;
+                        }
+                        @{slc_p3}{
+                            width: 40px;
+                            height: 20px;
+                            margin: 4px;
+                            border-radius: 4px;
+                            margin-left: 14px;
+                            border: 2px solid black;
+                        }
+                        
+                        
+                        .cct{
+                            .funcaonone();
+                            /*
+                            width: 35px;
+                            height: 55px;
+                            font-size: 20px;
+                            border-radius: 20px;
+                            border:2px solid;
+                            position: absolute;
+                            right: 0.5%;
+                            top: 315%;
+                            cursor: pointer;*/
+                        }
+                        
+                        @{slc_a}{
+                        text-decoration: none;
+                        }
+                        @{slc_jogo}{
+                            height: 600px;
+                            width: 800px;
+                            background-color: rgb(66, 54, 54);
+                            margin: auto;
+                            border-radius: 10px;
+                        }
+                        
+                        .funcaonone(){
+                            display: none;
+                        }
+                         }
+
+                         @media screen and(min-width: @tamanho540px){
+                            @{slc_partedecima}{
+                                margin: 0px;
+                                width: auto;
+                                height: 70px;
+                                padding: 10px;
+                                background-color: rgba(83, 94, 104, 0.164);
+                            
+                            }
+                            @{slc_logo}{
+                                width:250px;
+                                height: 50px;
+                                background-color: rgb(66, 54, 54);
+                                border-radius: 20px;
+                                margin: auto;
+                                margin-top: 0px;
+                            }
+                            @{slc_paralax}{
+                                background-image: url("./img_exposição/imagem05.png");
+                                min-height: 800px;
+                                width: 1580px;
+                                background-attachment: fixed;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size:cover ;
+                            }
+                            @{slc_h1}{
+                                text-align: center;
+                                font-size: 40px;
+                               font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                color: white;
+                                margin-top: 0px;
+                            }
+                            @{slc_img_fixo0}{
+                               .funcaonone();
+                              /*  background-image: url("./img_exposição/imagem01.png");
+                                width: 800px;
+                                height: 700px;
+                                position: absolute;
+                                top: 110%;
+                                right: 0px;
+                                filter:contrast(100%);*/
+                               
+                            }
+                            @{slc_img_fixo1}{
+                                .funcaonone();
+                               /* background-image: url("./img_exposição/imagem02.png");
+                                width: 750px;
+                                height: 640px;
+                                position: absolute;
+                                top: 210%;
+                               left: -70px;
+                                filter:contrast(100%);
+                               */
+                            }
+                            
+                            @{slc_limite1}{
+                                width: 530px;
+                                height: 1000px;
+                                display: flex;
+                                flex-wrap: wrap;
+                            
+                            }
+                            @{slc_limite2}{
+                                width: 533px;
+                                height: 800px;
+                                display: flex;
+                                flex-wrap: wrap;
+                                margin-left: 0px;
+                            }
+                            @{slc_limite3}{
+                                .funcaonone();
+                               /* width:auto;
+                            height: 340px;
+                            background-color: rgb(189, 165, 165);
+                            */
+                            }
+                            @{slc_carrossel}{
+                                width:1582px;
+                            height: 340px;
+                            display: flex;
+                            flex-wrap: wrap;
+                            background-color: rgb(58, 42, 42);
+                            position: absolute;
+                            
+                            }
+                            @{slc_carrossel2}{
+                                width:1582px;
+                            height: 340px;
+                            display: none;
+                            flex-wrap: wrap;
+                            background-color: rgb(58, 42, 42);
+                            position: absolute;
+                            
+                            }
+                            @{slc_carrossel3}{
+                                width:1582px;
+                            height: 340px;
+                            display: none;
+                            flex-wrap: wrap;
+                            background-color: rgb(58, 42, 42);
+                            position: absolute;
+                            
+                            }
+                            
+                            @{slc_espaco1}{
+                                display: flex;
+                            flex-wrap: wrap;
+                            width: auto;
+                            background-color: rgb(82, 77, 76);
+                            height: 1000px;
+                            }
+                            @{slc_espaco2}{
+                                display: flex;
+                                flex-wrap: wrap;
+                                width: 530px;
+                                background-color: rgb(136, 98, 94);
+                                height: 1000px;
+                            }
+                            
+                            @{slc_basegame}{
+                                width: 200px;
+                                height: 300px;
+                                cursor: pointer;
+                                border-radius: 10px;
+                                margin-top: 0px;
+                                background-color: rgb(53, 30, 30);
+                            }
+                            @{slc_basegame}[name="exb"]{
+                                margin:10px;
+                            }
+                            @{slc_imggame}{
+                                width: 200px;
+                                height: 250px;
+                                border-radius: 8px 8px 0px 0px;
+                            }
+                            @{slc_h2}{
+                                font-size: 14px;
+                                text-align: center;
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                margin-top: 0px;
+                                color: white;
+                            }
+                            @{slc_mark}{
+                                border-radius: 5px;
+                                background-color: sandybrown;
+                                margin-left: 5px;
+                                padding: 2px;
+                            }
+                            @{slc_posicao}{
+                                .funcaonone();
+                                /*
+                                margin: auto;
+                                width: 200px;
+                                height: 35px;
+                                background-color: rgb(53, 30, 30);
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                                border-radius: 10px;
+                                display: flex;
+                                flex-wrap: wrap;*/
+                            }
+                            @{slc_p1}{
+                                width: 40px;
+                                height: 20px;
+                                margin: 4px;
+                                border-radius: 4px;
+                                margin-left: 14px;
+                                border: 2px solid black;
+                            }
+                            @{slc_p2}{
+                                width: 40px;
+                                height: 20px;
+                                margin: 4px;
+                                border-radius: 4px;
+                                margin-left: 14px;
+                                border: 2px solid black;
+                            }
+                            @{slc_p3}{
+                                width: 40px;
+                                height: 20px;
+                                margin: 4px;
+                                border-radius: 4px;
+                                margin-left: 14px;
+                                border: 2px solid black;
+                            }
+                            
+                            
+                            .cct{
+                                .funcaonone();
+                                /*
+                                width: 35px;
+                                height: 55px;
+                                font-size: 20px;
+                                border-radius: 20px;
+                                border:2px solid;
+                                position: absolute;
+                                right: 0.5%;
+                                top: 315%;
+                                cursor: pointer;*/
+                            }
+                            
+                            @{slc_a}{
+                            text-decoration: none;
+                            }
+                            @{slc_jogo}{
+                                height: 600px;
+                                width: 800px;
+                                background-color: rgb(66, 54, 54);
+                                margin: auto;
+                                border-radius: 10px;
+                            }
+                            
+                            .funcaonone(){
+                                display: none;
+                            }
+                             }
+
+                @media screen and(min-width: @tamanho600px){
+                    @{slc_partedecima}{
+                        margin: 0px;
+                        width: auto;
+                        height: 70px;
+                        padding: 10px;
+                        background-color: rgba(83, 94, 104, 0.164);
+                    
+                    }
+                    @{slc_logo}{
+                        width:250px;
+                        height: 50px;
+                        background-color: rgb(66, 54, 54);
+                        border-radius: 20px;
+                        margin: auto;
+                        margin-top: 0px;
+                    }
+                    @{slc_paralax}{
+                        background-image: url("./img_exposição/imagem05.png");
+                        min-height: 800px;
+                        width: 1580px;
+                        background-attachment: fixed;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size:cover ;
+                    }
+                    @{slc_h1}{
+                        text-align: center;
+                        font-size: 40px;
+                       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                        color: white;
+                        margin-top: 0px;
+                    }
+                    @{slc_img_fixo0}{
+                       .funcaonone();
+                      /*  background-image: url("./img_exposição/imagem01.png");
+                        width: 800px;
+                        height: 700px;
+                        position: absolute;
+                        top: 110%;
+                        right: 0px;
+                        filter:contrast(100%);*/
+                       
+                    }
+                    @{slc_img_fixo1}{
+                        .funcaonone();
+                       /* background-image: url("./img_exposição/imagem02.png");
+                        width: 750px;
+                        height: 640px;
+                        position: absolute;
+                        top: 210%;
+                       left: -70px;
+                        filter:contrast(100%);
+                       */
+                    }
+                    
+                    @{slc_limite1}{
+                        width: 530px;
+                        height: 1000px;
+                        display: flex;
+                        flex-wrap: wrap;
+                    
+                    }
+                    @{slc_limite2}{
+                        width: 533px;
+                        height: 800px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin-left: 0px;
+                    }
+                    @{slc_limite3}{
+                        .funcaonone();
+                       /* width:auto;
+                    height: 340px;
+                    background-color: rgb(189, 165, 165);
+                    */
+                    }
+                    @{slc_carrossel}{
+                        width:1582px;
+                    height: 340px;
+                    display: flex;
+                    flex-wrap: wrap;
+                    background-color: rgb(58, 42, 42);
+                    position: absolute;
+                    
+                    }
+                    @{slc_carrossel2}{
+                        width:1582px;
+                    height: 340px;
+                    display: none;
+                    flex-wrap: wrap;
+                    background-color: rgb(58, 42, 42);
+                    position: absolute;
+                    
+                    }
+                    @{slc_carrossel3}{
+                        width:1582px;
+                    height: 340px;
+                    display: none;
+                    flex-wrap: wrap;
+                    background-color: rgb(58, 42, 42);
+                    position: absolute;
+                    
+                    }
+                    
+                    @{slc_espaco1}{
+                        display: flex;
+                    flex-wrap: wrap;
+                    width: auto;
+                    background-color: rgb(82, 77, 76);
+                    height: 1000px;
+                    }
+                    @{slc_espaco2}{
+                        display: flex;
+                        flex-wrap: wrap;
+                        width: 580px;
+                        background-color: rgb(136, 98, 94);
+                        height: 1000px;
+                    }
+                    
+                    @{slc_basegame}{
+                        width: 200px;
+                        height: 300px;
+                        cursor: pointer;
+                        border-radius: 10px;
+                        margin-top: 0px;
+                        background-color: rgb(53, 30, 30);
+                    }
+                    @{slc_basegame}[name="exb"]{
+                        margin:10px;
+                    }
+                    @{slc_imggame}{
+                        width: 200px;
+                        height: 250px;
+                        border-radius: 8px 8px 0px 0px;
+                    }
+                    @{slc_h2}{
+                        font-size: 14px;
+                        text-align: center;
+                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        margin-top: 0px;
+                        color: white;
+                    }
+                    @{slc_mark}{
+                        border-radius: 5px;
+                        background-color: sandybrown;
+                        margin-left: 5px;
+                        padding: 2px;
+                    }
+                    @{slc_posicao}{
+                        .funcaonone();
+                        /*
+                        margin: auto;
+                        width: 200px;
+                        height: 35px;
+                        background-color: rgb(53, 30, 30);
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                        border-radius: 10px;
+                        display: flex;
+                        flex-wrap: wrap;*/
+                    }
+                    @{slc_p1}{
+                        width: 40px;
+                        height: 20px;
+                        margin: 4px;
+                        border-radius: 4px;
+                        margin-left: 14px;
+                        border: 2px solid black;
+                    }
+                    @{slc_p2}{
+                        width: 40px;
+                        height: 20px;
+                        margin: 4px;
+                        border-radius: 4px;
+                        margin-left: 14px;
+                        border: 2px solid black;
+                    }
+                    @{slc_p3}{
+                        width: 40px;
+                        height: 20px;
+                        margin: 4px;
+                        border-radius: 4px;
+                        margin-left: 14px;
+                        border: 2px solid black;
+                    }
+                    
+                    
+                    .cct{
+                        .funcaonone();
+                        /*
+                        width: 35px;
+                        height: 55px;
+                        font-size: 20px;
+                        border-radius: 20px;
+                        border:2px solid;
+                        position: absolute;
+                        right: 0.5%;
+                        top: 315%;
+                        cursor: pointer;*/
+                    }
+                    
+                    @{slc_a}{
+                    text-decoration: none;
+                    }
+                    @{slc_jogo}{
+                        height: 600px;
+                        width: 800px;
+                        background-color: rgb(66, 54, 54);
+                        margin: auto;
+                        border-radius: 10px;
+                    }
+                    
+                    .funcaonone(){
+                        display: none;
+                    }
+                                 }
+
+                                 @media screen and(min-width: @tamanho800px){
+                                    @{slc_partedecima}{
+                                        margin: 0px;
+                                        width: auto;
+                                        height: 70px;
+                                        padding: 10px;
+                                        background-color: rgba(83, 94, 104, 0.164);
+                                    
+                                    }
+                                    @{slc_logo}{
+                                        width:250px;
+                                        height: 50px;
+                                        background-color: rgb(66, 54, 54);
+                                        border-radius: 20px;
+                                        margin: auto;
+                                        margin-top: 0px;
+                                    }
+                                    @{slc_paralax}{
+                                        background-image: url("./img_exposição/imagem05.png");
+                                        min-height: 800px;
+                                        width: 1580px;
+                                        background-attachment: fixed;
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        background-size:cover ;
+                                    }
+                                    @{slc_h1}{
+                                        text-align: center;
+                                        font-size: 40px;
+                                       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                        color: white;
+                                        margin-top: 0px;
+                                    }
+                                    @{slc_img_fixo0}{
+                                       .funcaonone();
+                                      /*  background-image: url("./img_exposição/imagem01.png");
+                                        width: 800px;
+                                        height: 700px;
+                                        position: absolute;
+                                        top: 110%;
+                                        right: 0px;
+                                        filter:contrast(100%);*/
+                                       
+                                    }
+                                    @{slc_img_fixo1}{
+                                        .funcaonone();
+                                       /* background-image: url("./img_exposição/imagem02.png");
+                                        width: 750px;
+                                        height: 640px;
+                                        position: absolute;
+                                        top: 210%;
+                                       left: -70px;
+                                        filter:contrast(100%);
+                                       */
+                                    }
+                                    
+                                    @{slc_limite1}{
+                                        width: 780px;
+                                        height: 600px;
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                    
+                                    }
+                                    @{slc_limite2}{
+                                        width: 1000px;
+                                        height: 800px;
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        margin-left: 0px;
+                                    }
+                                    @{slc_limite3}{
+                                        .funcaonone();
+                                       /* width:auto;
+                                    height: 340px;
+                                    background-color: rgb(189, 165, 165);
+                                    */
+                                    }
+                                    @{slc_carrossel}{
+                                        width:1582px;
+                                    height: 340px;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    background-color: rgb(58, 42, 42);
+                                    position: absolute;
+                                    
+                                    }
+                                    @{slc_carrossel2}{
+                                        width:1582px;
+                                    height: 340px;
+                                    display: none;
+                                    flex-wrap: wrap;
+                                    background-color: rgb(58, 42, 42);
+                                    position: absolute;
+                                    
+                                    }
+                                    @{slc_carrossel3}{
+                                        width:1582px;
+                                    height: 340px;
+                                    display: none;
+                                    flex-wrap: wrap;
+                                    background-color: rgb(58, 42, 42);
+                                    position: absolute;
+                                    
+                                    }
+                                    
+                                    @{slc_espaco1}{
+                                        display: flex;
+                                    flex-wrap: wrap;
+                                    width: auto;
+                                    background-color: rgb(82, 77, 76);
+                                    height: 700px;
+                                    }
+                                    @{slc_espaco2}{
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        width: 780px;
+                                        background-color: rgb(136, 98, 94);
+                                        height: 800px;
+                                    }
+                                    
+                                    @{slc_basegame}{
+                                        width: 200px;
+                                        height: 300px;
+                                        cursor: pointer;
+                                        border-radius: 10px;
+                                        margin-top: 0px;
+                                        background-color: rgb(53, 30, 30);
+                                    }
+                                    @{slc_basegame}[name="exb"]{
+                                        margin:10px;
+                                    }
+                                    @{slc_imggame}{
+                                        width: 200px;
+                                        height: 250px;
+                                        border-radius: 8px 8px 0px 0px;
+                                    }
+                                    @{slc_h2}{
+                                        font-size: 14px;
+                                        text-align: center;
+                                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                        margin-top: 0px;
+                                        color: white;
+                                    }
+                                    @{slc_mark}{
+                                        border-radius: 5px;
+                                        background-color: sandybrown;
+                                        margin-left: 5px;
+                                        padding: 2px;
+                                    }
+                                    @{slc_posicao}{
+                                        .funcaonone();
+                                        /*
+                                        margin: auto;
+                                        width: 200px;
+                                        height: 35px;
+                                        background-color: rgb(53, 30, 30);
+                                        margin-top: 10px;
+                                        margin-bottom: 10px;
+                                        border-radius: 10px;
+                                        display: flex;
+                                        flex-wrap: wrap;*/
+                                    }
+                                    @{slc_p1}{
+                                        width: 40px;
+                                        height: 20px;
+                                        margin: 4px;
+                                        border-radius: 4px;
+                                        margin-left: 14px;
+                                        border: 2px solid black;
+                                    }
+                                    @{slc_p2}{
+                                        width: 40px;
+                                        height: 20px;
+                                        margin: 4px;
+                                        border-radius: 4px;
+                                        margin-left: 14px;
+                                        border: 2px solid black;
+                                    }
+                                    @{slc_p3}{
+                                        width: 40px;
+                                        height: 20px;
+                                        margin: 4px;
+                                        border-radius: 4px;
+                                        margin-left: 14px;
+                                        border: 2px solid black;
+                                    }
+                                    
+                                    
+                                    .cct{
+                                        .funcaonone();
+                                        /*
+                                        width: 35px;
+                                        height: 55px;
+                                        font-size: 20px;
+                                        border-radius: 20px;
+                                        border:2px solid;
+                                        position: absolute;
+                                        right: 0.5%;
+                                        top: 315%;
+                                        cursor: pointer;*/
+                                    }
+                                    
+                                    @{slc_a}{
+                                    text-decoration: none;
+                                    }
+                                    @{slc_jogo}{
+                                        height: 600px;
+                                        width: 800px;
+                                        background-color: rgb(66, 54, 54);
+                                        margin: auto;
+                                        border-radius: 10px;
+                                    }
+                                    
+                                    .funcaonone(){
+                                        display: none;
+                                    }
+                                     }
+
+                                     @media screen and(min-width: @tamanho1000px){
+                                        @{slc_partedecima}{
+                                            margin: 0px;
+                                            width: auto;
+                                            height: 70px;
+                                            padding: 10px;
+                                            background-color: rgba(83, 94, 104, 0.164);
+                                        
+                                        }
+                                        @{slc_logo}{
+                                            width:250px;
+                                            height: 50px;
+                                            background-color: rgb(66, 54, 54);
+                                            border-radius: 20px;
+                                            margin: auto;
+                                            margin-top: 0px;
+                                        }
+                                        @{slc_paralax}{
+                                            background-image: url("./img_exposição/imagem05.png");
+                                            min-height: 800px;
+                                            width: 1580px;
+                                            background-attachment: fixed;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            background-size:cover ;
+                                        }
+                                        @{slc_h1}{
+                                            text-align: center;
+                                            font-size: 40px;
+                                           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                            color: white;
+                                            margin-top: 0px;
+                                        }
+                                        @{slc_img_fixo0}{
+                                           .funcaonone();
+                                          /*  background-image: url("./img_exposição/imagem01.png");
+                                            width: 800px;
+                                            height: 700px;
+                                            position: absolute;
+                                            top: 110%;
+                                            right: 0px;
+                                            filter:contrast(100%);*/
+                                           
+                                        }
+                                        @{slc_img_fixo1}{
+                                            .funcaonone();
+                                           /* background-image: url("./img_exposição/imagem02.png");
+                                            width: 750px;
+                                            height: 640px;
+                                            position: absolute;
+                                            top: 210%;
+                                           left: -70px;
+                                            filter:contrast(100%);
+                                           */
+                                        }
+                                        
+                                        @{slc_limite1}{
+                                            width:1000px;
+                                            height: 650px;
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                        }
+                                        @{slc_limite2}{
+                                            width: 1000px;
+                                            height: 650px;
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            margin-left: 0px;
+                                        }
+                                        @{slc_limite3}{
+                                            .funcaonone();
+                                           /* width:auto;
+                                        height: 340px;
+                                        background-color: rgb(189, 165, 165);
+                                        */
+                                        }
+                                        @{slc_carrossel}{
+                                            width:1582px;
+                                        height: 340px;
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        background-color: rgb(58, 42, 42);
+                                        position: absolute;
+                                        
+                                        }
+                                        @{slc_carrossel2}{
+                                            width:1582px;
+                                        height: 340px;
+                                        display: none;
+                                        flex-wrap: wrap;
+                                        background-color: rgb(58, 42, 42);
+                                        position: absolute;
+                                        
+                                        }
+                                        @{slc_carrossel3}{
+                                            width:1582px;
+                                        height: 340px;
+                                        display: none;
+                                        flex-wrap: wrap;
+                                        background-color: rgb(58, 42, 42);
+                                        position: absolute;
+                                        
+                                        }
+                                        
+                                        @{slc_espaco1}{
+                                            display: flex;
+                                        flex-wrap: wrap;
+                                        width: 1000px;
+                                        background-color: rgb(82, 77, 76);
+                                        height: 650px;
+                                        }
+                                        @{slc_espaco2}{
+                                            display: flex;
+                                            flex-wrap: wrap;
+                                            width: 1000px;
+                                            background-color: rgb(136, 98, 94);
+                                            height: 650px;
+                                        }
+                                        
+                                        @{slc_basegame}{
+                                            width: 200px;
+                                            height: 300px;
+                                            cursor: pointer;
+                                            border-radius: 10px;
+                                            margin-top: 0px;
+                                            background-color: rgb(53, 30, 30);
+                                        }
+                                        @{slc_basegame}[name="exb"]{
+                                            margin:10px;
+                                        }
+                                        @{slc_imggame}{
+                                            width: 200px;
+                                            height: 250px;
+                                            border-radius: 8px 8px 0px 0px;
+                                        }
+                                        @{slc_h2}{
+                                            font-size: 14px;
+                                            text-align: center;
+                                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                            margin-top: 0px;
+                                            color: white;
+                                        }
+                                        @{slc_mark}{
+                                            border-radius: 5px;
+                                            background-color: sandybrown;
+                                            margin-left: 5px;
+                                            padding: 2px;
+                                        }
+                                        @{slc_posicao}{
+                                            .funcaonone();
+                                            /*
+                                            margin: auto;
+                                            width: 200px;
+                                            height: 35px;
+                                            background-color: rgb(53, 30, 30);
+                                            margin-top: 10px;
+                                            margin-bottom: 10px;
+                                            border-radius: 10px;
+                                            display: flex;
+                                            flex-wrap: wrap;*/
+                                        }
+                                        @{slc_p1}{
+                                            width: 40px;
+                                            height: 20px;
+                                            margin: 4px;
+                                            border-radius: 4px;
+                                            margin-left: 14px;
+                                            border: 2px solid black;
+                                        }
+                                        @{slc_p2}{
+                                            width: 40px;
+                                            height: 20px;
+                                            margin: 4px;
+                                            border-radius: 4px;
+                                            margin-left: 14px;
+                                            border: 2px solid black;
+                                        }
+                                        @{slc_p3}{
+                                            width: 40px;
+                                            height: 20px;
+                                            margin: 4px;
+                                            border-radius: 4px;
+                                            margin-left: 14px;
+                                            border: 2px solid black;
+                                        }
+                                        
+                                        
+                                        .cct{
+                                            .funcaonone();
+                                            /*
+                                            width: 35px;
+                                            height: 55px;
+                                            font-size: 20px;
+                                            border-radius: 20px;
+                                            border:2px solid;
+                                            position: absolute;
+                                            right: 0.5%;
+                                            top: 315%;
+                                            cursor: pointer;*/
+                                        }
+                                        
+                                        @{slc_a}{
+                                        text-decoration: none;
+                                        }
+                                        @{slc_jogo}{
+                                            height: 600px;
+                                            width: 800px;
+                                            background-color: rgb(66, 54, 54);
+                                            margin: auto;
+                                            border-radius: 10px;
+                                        }
+                                        
+                                        .funcaonone(){
+                                            display: none;
+                                        }
+                                         }
+
+                        @media screen and(min-width: @tamanho1400px){
+                            @{slc_partedecima}{
+                                margin: 0px;
+                                width: auto;
+                                height: 80px;
+                                padding: 10px;
+                                background-color: rgba(83, 94, 104, 0.164);
+                            
+                            }
+                            @{slc_logo}{
+                                width:400px;
+                                height: 75px;
+                                background-color: rgb(66, 54, 54);
+                                border-radius: 20px;
+                                margin: auto;
+                                margin-top: 0px;
+                            }
+                            @{slc_paralax}{
+                                display: block;
+                                background-image: url("./img_exposição/imagem05.png");
+                                min-height: 800px;
+                                width: 1580px;
+                                background-attachment: fixed;
+                                background-position: center;
+                                background-repeat: no-repeat;
+                                background-size:cover ;
+                            }
+                            @{slc_h1}{
+                                text-align: center;
+                                font-size: 70px;
+                               font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                                color: white;
+                                margin-top: 0px;
+                            }
+                            @{slc_img_fixo0}{
+                                display: block;
+                                background-image: url("./img_exposição/imagem01.png");
+                                width: 600px;
+                                height: 700px;
+                                position: absolute;
+                                top: 168%;
+                                right: 0px;
+                                filter:contrast(100%);
+                               
+                            }
+                            @{slc_img_fixo1}{
+                                display: block;
+                                background-image: url("./img_exposição/imagem02.png");
+                                width: 750px;
+                                height: 640px;
+                                position: absolute;
+                                top: 320%;
+                               left: -70px;
+                                filter:contrast(100%);
+                               
+                            }
+                            
+                            @{slc_limite1}{
+                                width: 782px;
+                            height: 635px;
+                            display: flex;
+                            flex-wrap: wrap;
+                            
+                            }
+                            @{slc_limite2}{
+                                width: 850px;
+                            height: 665px;
+                            display: flex;
+                            flex-wrap: wrap;
+                            margin-left: 740px;
+                            }
+                            @{slc_limite3}{
+                            display: block;
+                            width:auto;
+                            height: 340px;
+                            background-color: rgb(189, 165, 165);
+                            
+                            }
+                            @{slc_carrossel}{
+                                width:800px;
+                            height: 650px;
+                            display: flex;
+                            flex-wrap: wrap;
+                            background-color: rgb(58, 42, 42);
+                            position: absolute;
+                            
+                            }
+                            @{slc_carrossel2}{
+                                width:1582px;
+                            height: 340px;
+                            display: none;
+                            flex-wrap: wrap;
+                            background-color: rgb(58, 42, 42);
+                            position: absolute;
+                            
+                            }
+                            @{slc_carrossel3}{
+                                width:1582px;
+                            height: 340px;
+                            display: none;
+                            flex-wrap: wrap;
+                            background-color: rgb(58, 42, 42);
+                            position: absolute;
+                            
+                            }
+                            
+                            @{slc_espaco1}{
+                                display: flex;
+                                flex-wrap: wrap;
+                                width: auto;
+                                background-color: rgb(82, 77, 76);
+                                height: 635px;
+                            }
+                            @{slc_espaco2}{
+                                display: flex;
+                                flex-wrap: wrap;
+                                width: auto;
+                                background-color: rgb(136, 98, 94);
+                                height: 694px;
+                            }
+                            
+                            @{slc_basegame}{
+                                width: 200px;
+                                height: 300px;
+                                cursor: pointer;
+                                border-radius: 10px;
+                                margin: 25px;
+                                background-color: rgb(53, 30, 30);
+                            }
+                            @{slc_basegame}[name="exb"]{
+                                margin:30px;
+                            }
+                            @{slc_imggame}{
+                                width: 200px;
+                                height: 250px;
+                                border-radius: 8px 8px 0px 0px;
+                            }
+                            @{slc_h2}{
+                                font-size: 14px;
+                                text-align: center;
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                margin-top: 0px;
+                                color: white;
+                            }
+                            @{slc_mark}{
+                                border-radius: 5px;
+                                background-color: sandybrown;
+                                margin-left: 5px;
+                                padding: 2px;
+                            }
+                            @{slc_posicao}{
+                                margin: auto;
+                                width: 200px;
+                                height: 35px;
+                                background-color: rgb(53, 30, 30);
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                                border-radius: 10px;
+                                display: flex;
+                                flex-wrap: wrap;
+                            }
+                            @{slc_p1}{
+                                width: 40px;
+                                height: 20px;
+                                margin: 4px;
+                                border-radius: 4px;
+                                margin-left: 14px;
+                                border: 2px solid black;
+                            }
+                            @{slc_p2}{
+                                width: 40px;
+                                height: 20px;
+                                margin: 4px;
+                                border-radius: 4px;
+                                margin-left: 14px;
+                                border: 2px solid black;
+                            }
+                            @{slc_p3}{
+                                width: 40px;
+                                height: 20px;
+                                margin: 4px;
+                                border-radius: 4px;
+                                margin-left: 14px;
+                                border: 2px solid black;
+                            }
+                            
+                            
+                            .cct{
+                                width: 35px;
+                                height: 55px;
+                                font-size: 20px;
+                                border-radius: 20px;
+                                border:2px solid;
+                                position: absolute;
+                                right: 0.5%;
+                                top: 315%;
+                                cursor: pointer;
+                            }
+                            
+                            @{slc_a}{
+                            text-decoration: none;
+                            }
+                            @{slc_jogo}{
+                                height: 600px;
+                                width: 800px;
+                                background-color: rgb(66, 54, 54);
+                                margin: auto;
+                                border-radius: 10px;
+                            }
+                            
+                            .funcaonone(){
+                                display: none;
+                            }
+                             }
+
+                    @media screen and(min-width: @tamanho1600px){
+                        @{slc_partedecima}{
+                            margin: 0px;
+                            width: auto;
+                            height: 80px;
+                            padding: 10px;
+                            background-color: rgba(83, 94, 104, 0.164);
+                        
+                        }
+                        @{slc_logo}{
+                            width:400px;
+                            height: 75px;
+                            background-color: rgb(66, 54, 54);
+                            border-radius: 20px;
+                            margin: auto;
+                            margin-top: 0px;
+                        }
+                        @{slc_paralax}{
+                            background-image: url("./img_exposição/imagem05.png");
+                            min-height: 800px;
+                            width: 1580px;
+                            background-attachment: fixed;
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size:cover ;
+                        }
+                        @{slc_h1}{
+                            text-align: center;
+                            font-size: 70px;
+                           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                            color: white;
+                            margin-top: 0px;
+                        }
+                        @{slc_img_fixo0}{
+                            background-image: url("./img_exposição/imagem01.png");
+                            width: 800px;
+                            height: 700px;
+                            position: absolute;
+                            top: 110%;
+                            right: 0px;
+                            filter:contrast(100%);
+                           
+                        }
+                        @{slc_img_fixo1}{
+                            background-image: url("./img_exposição/imagem02.png");
+                            width: 750px;
+                            height: 640px;
+                            position: absolute;
+                            top: 210%;
+                           left: -70px;
+                            filter:contrast(100%);
+                           
+                        }
+                        
+                        @{slc_limite1}{
+                            width: 782px;
+                        height: 635px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        
+                        }
+                        @{slc_limite2}{
+                            width: 850px;
+                        height: 665px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin-left: 740px;
+                        }
+                        @{slc_limite3}{
+                            width:auto;
+                        height: 340px;
+                        background-color: rgb(189, 165, 165);
+                        
+                        }
+                        @{slc_carrossel}{
+                            width:1582px;
+                        height: 340px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        background-color: rgb(58, 42, 42);
+                        position: absolute;
+                        
+                        }
+                        @{slc_carrossel2}{
+                            width:1582px;
+                        height: 340px;
+                        display: none;
+                        flex-wrap: wrap;
+                        background-color: rgb(58, 42, 42);
+                        position: absolute;
+                        
+                        }
+                        @{slc_carrossel3}{
+                            width:1582px;
+                        height: 340px;
+                        display: none;
+                        flex-wrap: wrap;
+                        background-color: rgb(58, 42, 42);
+                        position: absolute;
+                        
+                        }
+                        
+                        @{slc_espaco1}{
+                            display: flex;
+                            flex-wrap: wrap;
+                            width: auto;
+                            background-color: rgb(82, 77, 76);
+                            height: 635px;
+                        }
+                        @{slc_espaco2}{
+                            display: flex;
+                            flex-wrap: wrap;
+                            width: auto;
+                            background-color: rgb(136, 98, 94);
+                            height: 694px;
+                        }
+                        
+                        @{slc_basegame}{
+                            width: 200px;
+                            height: 300px;
+                            cursor: pointer;
+                            border-radius: 10px;
+                            margin: 25px;
+                            background-color: rgb(53, 30, 30);
+                        }
+                        @{slc_basegame}[name="exb"]{
+                            margin:30px;
+                        }
+                        @{slc_imggame}{
+                            width: 200px;
+                            height: 250px;
+                            border-radius: 8px 8px 0px 0px;
+                        }
+                        @{slc_h2}{
+                            font-size: 14px;
+                            text-align: center;
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            margin-top: 0px;
+                            color: white;
+                        }
+                        @{slc_mark}{
+                            border-radius: 5px;
+                            background-color: sandybrown;
+                            margin-left: 5px;
+                            padding: 2px;
+                        }
+                        @{slc_posicao}{
+                            margin: auto;
+                            width: 200px;
+                            height: 35px;
+                            background-color: rgb(53, 30, 30);
+                            margin-top: 10px;
+                            margin-bottom: 10px;
+                            border-radius: 10px;
+                            display: flex;
+                            flex-wrap: wrap;
+                        }
+                        @{slc_p1}{
+                            width: 40px;
+                            height: 20px;
+                            margin: 4px;
+                            border-radius: 4px;
+                            margin-left: 14px;
+                            border: 2px solid black;
+                        }
+                        @{slc_p2}{
+                            width: 40px;
+                            height: 20px;
+                            margin: 4px;
+                            border-radius: 4px;
+                            margin-left: 14px;
+                            border: 2px solid black;
+                        }
+                        @{slc_p3}{
+                            width: 40px;
+                            height: 20px;
+                            margin: 4px;
+                            border-radius: 4px;
+                            margin-left: 14px;
+                            border: 2px solid black;
+                        }
+                        
+                        
+                        .cct{
+                            display: block;
+                            width: 35px;
+                            height: 55px;
+                            font-size: 20px;
+                            border-radius: 20px;
+                            border:2px solid;
+                            position: absolute;
+                            right: 0.5%;
+                            top: 315%;
+                            cursor: pointer;
+                        }
+                        
+                        @{slc_a}{
+                        text-decoration: none;
+                        }
+                        @{slc_jogo}{
+                            height: 600px;
+                            width: 800px;
+                            background-color: rgb(66, 54, 54);
+                            margin: auto;
+                            border-radius: 10px;
+                        }
+                        
+                        .funcaonone(){
+                            display: none;
+                        }
+                                                 }
